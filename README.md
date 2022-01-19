@@ -7,3 +7,8 @@ Template repository for React projects that work with GIS and/or Shapefile data.
 * As it is a template, it only points at the continental United States.
 * Shapefile ingestion via zip has already been implemented. There is no need to write your own.
 * Additional documentation included where necessary.
+
+## Sample Uses
+* Stripped from this project for queer_hack 2021: [Contact Congress](https://devpost.com/software/contact-congress)
+* Population dashboard for your country or state.
+* Vaccination maps for the world, country, or region.
