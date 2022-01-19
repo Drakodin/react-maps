@@ -2,6 +2,7 @@ import React from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { LatLngTuple, Map as LeafletMap } from 'leaflet';
 // import host url using a workaround for env files
+// For now, the zip file URL is an empty .zip, signalling nothing to read
 
 import ShapeRenderer from './MapRenderer';
 

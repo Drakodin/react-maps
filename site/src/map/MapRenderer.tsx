@@ -27,9 +27,17 @@ const ShapeRenderer = (props: RenderProps) => {
                         out.push(f.properties[key]);
                     }
                 }
+                // You can add event handlers here that have their own special properties
+                // Features are pushed in using the Shapefile and they can be interacted with.
+                
+                // ReactDOMServer is available to access any nodes created or needed for functionality
             }
         }).addTo(map);
-        // Shape Data load
+
+        /**
+         * Loads shapefiles from a passed in URL string to be read by the shpjs
+         * module then subsequently mapped onto the exsiting map.
+         */
         // shp(props.zipURL).then((data: any) => geo.addData(data));
     }, []);
     return null;
